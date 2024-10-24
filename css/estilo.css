@@ -301,8 +301,8 @@ section {
 /* Estilos para la sección de servicios */
 .contenedor-servicios {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between; /* Espacio entre los servicios */
+    flex-wrap: wrap; /* Permite que los servicios se muevan a la siguiente fila si es necesario */
     padding: 20px;
 }
 
@@ -311,10 +311,14 @@ section {
     color: #3a312d;
     padding: 20px;
     text-align: center;
-    width: 22%;
+    width: calc(22% - 20px); /* Ancho fijo para cada servicio menos el margen */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin: 10px; /* Espacio entre cada servicio */
+    min-height: 400px; /* Altura mínima para evitar deformación */
+    display: flex;
+    flex-direction: column; /* Alinear el contenido en columna */
+    justify-content: space-between; /* Asegurar que el contenido esté distribuido uniformemente */
 }
 
 .servicio h2 {
@@ -332,6 +336,7 @@ section {
 .servicio p {
     font-size: 16px;
     margin-bottom: 20px;
+    flex-grow: 1; /* Permite que el párrafo ocupe el espacio disponible */
 }
 
 .servicio button {
@@ -342,6 +347,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    margin-top: auto; /* Asegura que el botón se alinee en la parte inferior */
 }
 
 .servicio button:hover {
