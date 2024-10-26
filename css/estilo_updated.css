@@ -1,0 +1,460 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+font-family: 'futura', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Estilo para el menú */
+nav {
+background: #f9f6f4;
+padding: 10px 20px;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Logo a la izquierda */
+.logo {
+color: #3c1e04;
+font-size: 24px;
+font-weight: bold;
+}
+
+/* Menú a la derecha */
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: #3c1e04;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+padding: 8px 16px;
+}
+
+nav ul li a:hover {
+background: #f9f6f4;
+border-radius: 5px;
+}
+
+/* Secciones */
+section {
+padding: 100px 20px;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #f9f6f4;
+}
+
+/* Fondo con imágenes */
+#inicio {
+background-image: url('/imagenes/imagen inicio.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#servicios {
+background-color: #f9f6f4;
+color: black;
+}
+
+/* Estilos para la sección de servicios */
+.contenedor-servicios {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 20px;
+}
+
+.servicio {
+background-color: #b59a7a;
+color: #3a312d;
+padding: 20px;
+text-align: center;
+width: 22%;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+.servicio h2 {
+font-size: 36px;
+color: #3a312d;
+}
+
+.servicio h3 {
+font-size: 18px;
+margin-bottom: 10px;
+padding: 10px 0;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.servicio p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.servicio button {
+background-color: #3a312d;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px;
+}
+
+.servicio button:hover {
+background-color: #574f4a;
+}
+
+#seccion-adicional {
+background-color: #f9f6f4;
+color: black;
+}
+
+#sobre-nosotros {
+background-image: url('/imagenes/sobre nosotros.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#contacto {
+background-color: #a6a6a6;
+color: black;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+p {
+font-size: 18px;
+max-width: 600px;
+text-align: center;
+}
+
+/* Suavizar el scroll */
+html {
+scroll-behavior: smooth;
+}
+
+/* Estilo para el pie de página */
+footer {
+background-color: #333;
+color: #f9f6f4;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+}
+
+footer .social {
+margin-top: 10px;
+}
+
+footer .social a {
+color: #f9f6f4;
+margin: 0 10px;
+text-decoration: none;
+font-size: 20px;
+}
+
+footer .social a:hover {
+color: #f9f6f4;
+}
+
+
+/* Formulario de Contacto */
+form {
+background-color: #f9f6f4;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Asegúrate de que los elementos se comporten correctamente */
+form input, form textarea {
+width: calc(100% - 20px); /* Ajusta el ancho para que no se salga del margen */
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc; /* Cambia el color del borde */
+border-radius: 5px;
+box-sizing: border-box; /* Asegura que el padding se incluya en el ancho */
+}
+
+/* Ajuste de color y opacidad de los placeholders */
+form input::placeholder, form textarea::placeholder {
+color: #aaa; /* Color del texto del placeholder */
+opacity: 1; /* Asegura que el texto del placeholder sea visible */
+}
+
+form button {
+background-color: #333;
+color: #f9f6f4;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #575757;
+}
+
+/* Aseguramos que el menú no cubra las secciones */
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+padding-top: 60px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+font-family: 'futura', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Estilo para el menú */
+nav {
+background: #f9f6f4;
+padding: 10px 20px;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Logo a la izquierda */
+.logo {
+color: #3c1e04;
+font-size: 24px;
+font-weight: bold;
+}
+
+/* Menú a la derecha */
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: #3c1e04;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+padding: 8px 16px;
+}
+
+nav ul li a:hover {
+background: #f9f6f4;
+border-radius: 5px;
+}
+
+/* Secciones */
+section {
+padding: 100px 20px;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #f9f6f4;
+}
+
+/* Fondo con imágenes */
+#inicio {
+background-image: url('/imagenes/imagen inicio.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#servicios {
+background-color: #f9f6f4;
+color: black;
+}
+
+/* Estilos para la sección de servicios */
+.contenedor-servicios {
+display: flex;
+justify-content: space-between; /* Espacio entre los servicios */
+flex-wrap: wrap; /* Permite que los servicios se muevan a la siguiente fila si es necesario */
+padding: 20px;
+}
+
+.servicio {
+background-color: #b59a7a;
+color: #3a312d;
+padding: 20px;
+text-align: center;
+width: calc(22% - 20px); /* Ancho fijo para cada servicio menos el margen */
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 10px; /* Espacio entre cada servicio */
+min-height: 400px; /* Altura mínima para evitar deformación */
+display: flex;
+flex-direction: column; /* Alinear el contenido en columna */
+justify-content: space-between; /* Asegurar que el contenido esté distribuido uniformemente */
+}
+
+.servicio h2 {
+font-size: 36px;
+color: #3a312d;
+}
+
+.servicio h3 {
+font-size: 18px;
+margin-bottom: 10px;
+padding: 10px 0;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.servicio p {
+font-size: 16px;
+margin-bottom: 20px;
+flex-grow: 1; /* Permite que el párrafo ocupe el espacio disponible */
+}
+
+.servicio button {
+background-color: #3a312d;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px;
+margin-top: auto; /* Asegura que el botón se alinee en la parte inferior */
+}
+
+.servicio button:hover {
+background-color: #574f4a;
+}
+
+#seccion-adicional {
+background-color: #f9f6f4;
+color: black;
+}
+
+#sobre-nosotros {
+background-image: url('/imagenes/sobre nosotros.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#contacto {
+background-color: #a6a6a6;
+color: black;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+p {
+font-size: 18px;
+max-width: 600px;
+text-align: center;
+}
+
+/* Suavizar el scroll */
+html {
+scroll-behavior: smooth;
+}
+
+/* Estilo para el pie de página */
+footer {
+background-color: #333;
+color: #f9f6f4;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+}
+
+footer .social {
+margin-top: 10px;
+}
+
+footer .social a {
+color: #f9f6f4;
+margin: 0 10px;
+text-decoration: none;
+font-size: 20px;
+}
+
+footer .social a:hover {
+color: #f9f6f4;
+}
+
+/* Formulario de Contacto */
+form {
+background-color: #f9f6f4;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #f9f6f4;
+border-radius: 5px;
+}
+
+form button {
+background-color: #333;
+color: #f9f6f4;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #575757;
+}
+
+/* Aseguramos que el menú no cubra las secciones */
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+padding-top: 60px;
+}
